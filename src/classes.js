@@ -1,3 +1,5 @@
+import { Animais } from "./modulesExports"
+
 class animal {
 
     constructor(especie) {
@@ -29,3 +31,5 @@ const cachorro = new Cachorro('cachorro')
 cachorro.falar()
 cachorro.comer()
 cachorro.dormir()
+
+export default Cachorro
